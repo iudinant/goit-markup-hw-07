@@ -63,6 +63,18 @@
         gap: 12px;
       }
 
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .overlay {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url("../images/hero-bg/people-office-x2.jpg");
+      }
+    }
+
       
     .current-page::after{
         content: '';
@@ -212,6 +224,18 @@
         max-width: 496px;
         }
 
+        @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .overlay {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url("../images/hero-bg/people-office-x2.jpg");
+      }
+    }
+
        
         .preferences-list{
             display: flex;
@@ -267,11 +291,20 @@
         }
 
         /* portfolio */
+        .nav-btn-list{
+            justify-content: center;
+        }
 
         .portfolio-cards {
             padding-top: 64px; 
             padding-bottom: 96px;
         }
+
+        .portfolio-cards-list{
+            flex-direction: row;
+            gap: 24px;
+        }
+
         .portfolio-cards-item{
            width: calc((100% - 48px) / 3); 
         }
