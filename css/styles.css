@@ -372,6 +372,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 96px 16px;
     justify-content: center;
     align-items: center;
+    
+}
+
+.preferences-container{
+    width: 1200px;
 }
 
 .visually-hidden {
@@ -417,8 +422,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-family: inherit;
     color: var(--color-secondary);
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    /* margin-bottom: 120px; */
+    letter-spacing: 0.019em;
+    
 }
 
 .preferences-icon-box{
@@ -427,6 +432,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
     background-color: #F4F4FD;
     width: 264px;
+    height: auto;
     margin-bottom: 8px;
     border-radius: 4px;
 }
@@ -459,9 +465,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     align-items: center;
     gap: 24px;
 }
-.projects-intro-item{
-    
-}
+
 
 /* Team */
 
