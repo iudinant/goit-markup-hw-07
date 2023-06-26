@@ -1,4 +1,26 @@
-.container {
+@media screen and (max-width: 330px) {
+    .mob-tel-link {
+      font-size: 20px;
+    }
+  
+    .mob-menu-item {
+      font-size: 30px;
+    }
+
+    .customers-list{
+        gap: 72px 16px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+  }
+  @media screen and (min-width: 331px) and (max-width: 427px) {
+    .mob-tel-link {
+      font-size: 26px;
+    }
+
+  }.container {
     max-width: 428px;
     width: 100%;
     padding-left: 16px;
@@ -16,6 +38,13 @@
   }
   .preferences-item:last-child{
     margin-bottom: 0px;
+}
+
+.customers-list{
+    gap: 72px 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .subscribe-container{
@@ -36,6 +65,7 @@
 .portfolio-card-container{
     padding: 32px 16px;
 }
+
   
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .container {
@@ -73,6 +103,13 @@
         gap: 12px;
       }
 
+      .address-link{
+        font-size: 12px;
+        font-family: Roboto;
+        line-height: 1.16;
+        letter-spacing: 0.02em;
+      }
+
       @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -99,15 +136,41 @@
        
     }
 
+    
+    .hero-title{
+        font-size: 56px;
+        font-family: Roboto;
+        font-weight: 700;
+        max-width: 496px;
+        margin-bottom: 36px;
+        line-height: 1.07;
+    }
+
     .preferences-item{
         width: calc((100% - 24px) / 2); 
         align-items: flex-start;
         display: block; 
     }
 
-    .preferences-container{
+    .preferences-title  {
+        font-size: 36px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
         
     }
+
+    .preferences-text{
+        font-size: 16px;    
+        font-family: Roboto;    
+        font-weight: 500;   
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+        color: #434455;
+    }
+    
 
     .preferences-list{
         display: flex;
@@ -163,13 +226,15 @@
         width: calc((100% - 24px) / 2);
     }
 
+    .footer{
+        padding: 96px 0;
+    }
     .footer-container{
-        min-width: 768px;
-        display: flex;
-        flex-wrap: wrap;
-        /* justify-content: space-around; */
         align-items: baseline;
         gap: 72px 24px;
+        justify-content: flex-start;
+        padding-left: 108px;
+        padding-right: 164px;
     }
 
     .footer-link{
