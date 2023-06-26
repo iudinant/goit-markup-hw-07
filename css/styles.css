@@ -317,7 +317,8 @@ img{
     display: flex;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-    max-width: 1440px;
+    /* max-width: 1440px; */
+    width: 100%;
     margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -422,7 +423,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-family: inherit;
     color: var(--color-secondary);
     line-height: 1.5;
-    letter-spacing: 0.019em;
+    /* letter-spacing: 0.02em; */
     
 }
 
@@ -742,9 +743,9 @@ font-weight: 500;
     letter-spacing: 0.02em;
 }
 
-.subscribe-container{
+/* .subscribe-container{
     width: 100%;
-}
+} */
 
 .subscribe-form {
     display: flex;
