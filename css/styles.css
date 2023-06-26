@@ -579,10 +579,9 @@ font-weight: 500;
 }
 
 .customers-container {
-    /* width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .customers-title {
