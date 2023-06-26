@@ -578,11 +578,11 @@ font-weight: 500;
     
 }
 
-.customers-container {
+/* .customers-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
+} */
 
 .customers-title {
     font-family: 'Roboto', sans-serif;

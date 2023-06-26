@@ -40,11 +40,11 @@
     margin-bottom: 0px;
 }
 
-.customers-container {
+/* .customers-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
+} */
 .customers-list{
     gap: 72px 16px;
     /* display: flex;
@@ -193,16 +193,12 @@
     }
 
     .customers-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
         gap: 72px 24px;
     }
 
     .customers-item {
-        width: calc((100% - 48px) / 3); 
-        
+        /* width: calc((100% - 48px) / 3);  */
+        width: 168px;
     }
 
     .modal-window{
