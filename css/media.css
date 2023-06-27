@@ -99,6 +99,11 @@
     .main-nav-list{
         display: flex;
         gap: 40px;
+
+      }
+
+      .nav{
+        gap: 120px;
       }
     
       .address{
@@ -109,6 +114,7 @@
       .address-list{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
         gap: 12px;
       }
 
@@ -271,6 +277,10 @@
   @media screen and (min-width: 1158px) {
     .container {
       max-width: 1158px;
+    }
+
+    .logo{
+        margin-right: 76px;
     }
 
     .hamburger-btn{

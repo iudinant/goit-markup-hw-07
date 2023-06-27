@@ -73,7 +73,7 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-background);
-    margin-right: 76px;
+    /* margin-right: 76px; */
     
     }
 
@@ -146,7 +146,7 @@ img{
     .main-nav-list{
         display: flex;
         align-items: center;
-        margin-right: 40px;
+        /* margin-right: 40px; */
         /* gap: 40px; */
         
     }
@@ -211,8 +211,7 @@ img{
         padding: 80px 35px 40px 40px;
         max-width: 428px;
         height: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        
     }
     .modal-close-btn {
         
