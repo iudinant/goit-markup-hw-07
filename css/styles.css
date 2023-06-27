@@ -404,7 +404,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .preferences-list{
-   
+   display: flex;
+   flex-direction: column;
     gap: 72px;
     
 }

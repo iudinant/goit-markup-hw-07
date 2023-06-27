@@ -92,7 +92,7 @@
     .header-container{
         display: flex;
         align-items: center;
-       
+        gap: 120px;
         justify-content: space-between;
         
     }
@@ -183,7 +183,8 @@
 
     .preferences-list{
         display: flex;
-        flex-wrap: wrap;    
+        flex-wrap: wrap;  
+        flex-direction: row;  
         gap: 72px 24px;
     }
 
@@ -334,6 +335,7 @@
 
         .preferences-list{
             display: flex;
+            flex-direction: row;
             gap: 24px;
             
         }
