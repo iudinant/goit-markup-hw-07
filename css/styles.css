@@ -1229,7 +1229,7 @@ color: var(--color-footer-logo);
     z-index: 99;
     background-color: transparent;
     border: none;
-    fill: var(--icons-green-color);
+   
     transition: var(--transition-dur-and-func);
     
     display: block;
@@ -1237,7 +1237,7 @@ color: var(--color-footer-logo);
 
    .btn-up:active,
   .btn-up:hover{
-    fill: var(--accent-orange-color);
+    fill: red;
   }
   
   .btn-hidden {
@@ -1246,7 +1246,6 @@ color: var(--color-footer-logo);
 
   .scroll-up-btn{
     fill: red;
-    
   }
 
   .scroll-up-btn:active,
