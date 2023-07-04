@@ -1227,7 +1227,8 @@ color: var(--color-footer-logo);
     bottom: 20px;
     right: 20px;
     z-index: 99;
-    background-color: transparent;
+    padding: 10px 10px ;
+    background-color: green;
     border: none;
    
     transition: var(--transition-dur-and-func);
@@ -1250,5 +1251,5 @@ color: var(--color-footer-logo);
 
   .scroll-up-btn:active,
   .scroll-up-btn:hover{
-    fill: green;
+    fill: black;
   }
