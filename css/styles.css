@@ -1208,7 +1208,7 @@ color: var(--color-footer-logo);
     color: var(--color-background);
 }
 
-
+/* 
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -1225,22 +1225,52 @@ color: var(--color-footer-logo);
     font-size: 18px; /* Increase font size */
     transition: all 0.5s ease 0s ;
     /* scroll-behavior: smooth; */
-  }
+  } */
   
   #myBtn:hover {
     /* background-color: #555; Add a dark-grey background on hover */
   }
 
-  .scroll-up-btn{
+  /* .scroll-up-btn{
     width: 50px;
     height: 50px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
-  }
+  } */
 
-  .scroll-up-btn:hover,
+  /* .scroll-up-btn:hover,
   .scroll-up-btn:active{
         fill: aquamarine;
         
+  } */
+
+  .btn-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: transparent;
+    border: none;
+    /* fill: var(--icons-green-color); */
+    transition: var(--transition-dur-and-func);
+    
+    display: block;
   }
 
+  /* .btn-up:active,
+  .btn-up:hover{
+    fill: var(--accent-orange-color);
+  } */
   
+  .btn-hidden {
+    display: none;
+  }
+
+  .scroll-up-btn{
+    fill: green;
+    
+  }
+
+  .scroll-up-btn:active,
+  .scroll-up-btn:hover{
+    fill: red;
+  }
